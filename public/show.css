@@ -1,0 +1,128 @@
+.menu{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.menubar{
+    height: 100vh;
+    width: 220px;
+    border-right: 1px solid whitesmoke;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+  }
+  .header{
+    margin-bottom: 20px;
+}
+.icons
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: medium;
+    text-transform: capitalize;
+}
+.manager{
+    margin-left: 120px;
+}
+label{
+    font-size: x-large;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+h1{
+    margin-left: 0.85rem;
+    font-style: italic;
+}
+#profile{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 2px solid whitesmoke;
+    margin-left: 0.65rem;
+    border-right: 10px;
+    font-weight: 500;
+}
+.catimage
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 0.55rem;
+}
+.catimage2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.username
+{
+    position: relative;
+    left: 220px;
+    display: flex;
+    flex-direction: row;
+    bottom: 125px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+}
+.user{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 150px;
+}
+.image{
+    display: block;
+}
+.aerm5{
+    margin-right: 20px;
+}
+form{
+    margin-right: 20px;
+}
+#nameofuser{
+    font-size: larger;
+}
+.about{
+    position: relative;
+    left: 220px;
+    display: flex;
+    flex-direction: row;
+    bottom: 100px;
+}
+.post45s{
+    margin-right: 20px;
+}
+.aboutpost{
+    display: flex;
+    font-weight: 520;
+    font-size: medium;
+}
+.aboutdata{
+    margin-right: 5px;
+    font-weight: bold;
+}
+.button{
+    position: relative;
+   bottom: 5px;
+    border-radius: 6px;
+    height: 32px;
+    width: 100px;
+    background-color: rgba(rgb(201, 199, 199), green, blue, alpha);
+    border: 1px solid transparent;
+}
+.help
+{
+    opacity: 1;
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+.button:hover{
+    background-color: darkgray;
+}
