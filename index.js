@@ -149,3 +149,6 @@ app.get("/home/:id",(req,res)=>{
         }
     }
 });
+app.get('/home/posts/help',(req,res)=>{
+    res.send('thankyou');
+})

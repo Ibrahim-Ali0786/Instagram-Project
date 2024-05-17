@@ -14,16 +14,16 @@
                 <div class="header">
                     <h1><a style="text-decoration: none; color: black;" href="http://localhost:8080/home">instagram</a></h1>
                 </div>
-                <div class="icons"><label><i class="fa-solid fa-house"></i></label><a style="text-decoration: none; color: black;" href="http://localhost:8080/home">Home</a></div>
-                <div class="icons"><label ><i class="fa-solid fa-magnifying-glass"></i></label>Search</div>
-                <div class="icons"><label><i class="fa-regular fa-compass"></i></label>explore</div>
-                <div class="icons"><label><i class="fa-solid fa-layer-group"></i></label>Reels</div>
-                <div class="icons"><label><i class="fa-solid fa-message"></i></label>Message</div>
-                <div class="icons"><label ><i class="fa-regular fa-heart"></i></label>Notification</div>
-                <div class="icons"><label><i class="fa-regular fa-square-plus"></i></label>Create</div>
-                <div class="icons" id="profile"><img class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60";alt="">profile</div>
+                <div class="icons change"><label><i class="fa-solid fa-house"></i></label><a style="text-decoration: none; color: black;" href="http://localhost:8080/home">Home</a></div>
+                <div class="icons change"><label ><i class="fa-solid fa-magnifying-glass"></i></label>Search</div>
+                <div class="icons change"><label><i class="fa-regular fa-compass"></i></label>explore</div>
+                <div class="icons change"><label><i class="fa-solid fa-layer-group"></i></label>Reels</div>
+                <div class="icons change"><label><i class="fa-solid fa-message"></i></label>Message</div>
+                <div class="icons change"><label ><i class="fa-regular fa-heart"></i></label>Notification</div>
+                <div class="icons change"><label><i class="fa-regular fa-square-plus"></i></label>Create</div>
+                <div class="icons change"><img class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60";alt=""><a style="text-decoration: none; color: black;" href="http://localhost:8080/home/<%= data[0].id %>">profile</a></div>
             </div>
-         </div>
+        </div>
          <div class="manager"></div>
          <div class="userone">
             <% for (let index = 0; index < data.length; index++) { %>
@@ -35,24 +35,67 @@
         </div>
         <div class="sidebar">
            <div class="mainsidebar">
-            <div><img id="img" class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60";alt=""></div>
-            <div class="userside"><%=data[0].user%></div>
+                <div><img id="img" class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60";alt=""></div>
+                <div class="userside"><%=data[0].user%></div>
+                <div class="btnuser98cadrhy45lsgsf"><button class="btnuser">switch</button></div>
            </div>
-           <div class="suggestion">
+        <div class="suggestion">
             <div class="helper">suggested for you
                 <span class="span">see all</span>
             </div>
-            <div class="suggested">
-                <div><img id="img" class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60";alt=""></div>
-                <div class="userside"><%=data[1].user%>
-                    <div class="suggestedforyou">suggested for you
-                        <button class="suggestedbtn">follow</button>
+        </div>
+        <div class="suggest">
+            <div class="suggester">
+                <div class="suggestedforyou">
+                    <div class="user980cxfsf">
+                        <div><img id="img" class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt=""></div>
+                        <div class="user450808uuysbfvghuf"><%= data[2].user%>
+                            <div class="sugg454548bhffy">suggested for you</div>
+                        </div>
+                        <div class="btn5454usufaeevg"><button class="btnuser clicked">follow</button></div>
+                    </div>
+                    <div class="user980cxfsf">
+                        <div><img id="img" class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt=""></div>
+                        <div class="user450808uuysbfvghuf"><%= data[1].user%>
+                            <div class="sugg454548bhffy">suggested for you</div>
+                        </div>
+                        <div class="btn5454usufaeevg"><button class="btnuser clicked">follow</button></div>
+                    </div>
+                    <div class="user980cxfsf">
+                        <div><img id="img" class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt=""></div>
+                        <div class="user450808uuysbfvghuf"><%= data[3].user%>
+                            <div class="sugg454548bhffy">suggested for you</div>
+                        </div>
+                        <div class="btn5454usufaeevg"><button class="btnuser clicked">follow</button></div>
+                    </div>
+                    <div class="user980cxfsf">
+                        <div><img id="img" class="catimage" src="https://plus.unsplash.com/premium_photo-1677545182067-26ac518ef64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt=""></div>
+                        <div class="user450808uuysbfvghuf"><%= data[4].user%>
+                            <div class="sugg454548bhffy">suggested for you</div>
+                        </div>
+                        <div class="btn5454usufaeevg"><button class="btnuser clicked">follow</button></div>
                     </div>
                 </div>
-               </div>
-           </div>
-
+            </div>
+            <div class="info">
+                <div class="helpertyuser4545bsfs"><a class="infoabout" href="http://localhost:8080/home/posts/help">about</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a href="" class="infoabout">Help</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a href="" class="infoabout">Press</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a href="" class="infoabout">API</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a href="" class="infoabout">Jobs</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a href="" class="infoabout">privacy</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a href="" class="infoabout">terms</a><div class="dot">&nbsp;.</div></div>
+            </div>
+            <div class="info">
+                <div class="helpertyuser4545bsfs"><a class="infoabout" href="">loactions</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a class="infoabout" href="">Language</a><div class="dot">&nbsp;.</div></div>
+                <div class="helpertyuser4545bsfs"><a class="infoabout" href="">meta verified</a><div class="dot">&nbsp;.</div></div>
+            </div>
+            <div class="info copyright">
+                <div class="copy infoabout" style="text-transform: uppercase;"id="nochange">&COPY; 2024 instagram from meta</div>
+            </div>
         </div>
     </div>
+    <script src="/app.js"></script>
 </body>
 </html>

@@ -56,7 +56,7 @@ img
 {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -84,6 +84,7 @@ label{
     width: 25px;
     border-radius: 50%;
     margin-right: 0.55rem;
+    margin-left: 0.85rem;
 }
 .mainsidebar{
     display: flex;
@@ -140,4 +141,100 @@ label{
     text-transform: capitalize;
     font-size: 13px;
     font-weight: 500;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.suggest
+{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    height: 200px;
+    width: 100%;
+}
+.suggester{
+    display: flex;
+    flex-direction: column;
+}
+.user980cxfsf{
+display: flex;
+flex-direction: row;
+margin-bottom: 8px;
+}
+.user450808uuysbfvghuf{
+    font-size: 15px;
+    font-weight: 550;
+    color: black;
+    position: relative;
+    top: 4px;
+}
+.sugg454548bhffy
+{
+    font-size: 11px;
+    color: gray;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.btn5454usufaeevg
+{
+    top: 10px;
+    position: relative;
+    left: 20%;
+}
+.btnuser{
+    background-color: transparent;
+    border: transparent;
+    color: #0095f6;
+}
+.btnuser98cadrhy45lsgsf
+{
+    position: relative;
+    left: 60px;
+    top: 2px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:22px;
+    right: 10px;
+}
+.infoabout{
+    color: #c7c7c7;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 500;
+}
+.infoabout:hover{
+    text-decoration: underline;
+}
+.helpertyuser4545bsfs{
+  
+    display: flex;
+    flex-direction: row;
+}
+.btnuser:hover{
+    color: rgb(38,38,240);
+}
+.dot{
+    position: relative;
+    bottom: 6px;
+    color:#c7c7c7 ;
+}
+.copyright{
+    top: 35px;
+}
+.change{
+    width: 140%;
+    height: 45px;
+    border-radius: 8px;
+}
+.change:hover{
+    background-color: rgb(219, 214, 214);
+}
+#nochange:hover{
+    text-decoration: none;
 }

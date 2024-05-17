@@ -109,11 +109,11 @@ form{
 }
 .button{
     position: relative;
-   bottom: 5px;
+     bottom: 5px;
     border-radius: 6px;
     height: 32px;
     width: 100px;
-    background-color: rgba(rgb(201, 199, 199), green, blue, alpha);
+    background-color: #efefef;
     border: 1px solid transparent;
 }
 .help
@@ -124,5 +124,5 @@ form{
     opacity: 1;
 }
 .button:hover{
-    background-color: darkgray;
+    background-color: rgb(219, 219, 219);
 }
