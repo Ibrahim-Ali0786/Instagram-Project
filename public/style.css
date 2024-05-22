@@ -1,3 +1,4 @@
+
 .main{
     display: flex;
     margin: 0;
@@ -10,7 +11,6 @@
 .center{
     height: 100vh;
     width: 83.8%;
-    border: 1px solid black;
 }
 .head{
     padding: 0.5px 24px;
@@ -68,4 +68,224 @@
     position: fixed;
     width: 16%;
     border-right: 1px solid #b9a8a8;
+}
+.center-main
+{
+    display: flex;
+    margin: 0 120px 0 120px;
+    height: inherit;
+}
+.status{
+    display: flex;
+    width: initial;
+    height: 90px;
+    justify-content: space-between;
+    padding: 8px 0;
+    margin: 0px 0px 10px 0;
+    overflow: scroll;
+}
+.status::-webkit-scrollbar{
+    display: none;
+}
+.about{
+    width: 35%;
+    padding: 0 0 0 64px;
+}
+.posts{
+    width: initial;
+    height: 100%;
+    border: 1px solid black
+}
+.centerside{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: 65%;
+    margin:10px 0 10px 0;
+}
+.helper{
+    display: flex;
+    flex-direction: column;
+    width: 65px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: 0 5px 0 5px;
+}
+.status-maker{
+    position: relative;
+    top: -3px;
+    left: -6px;
+    width: 63px;
+    height: 63px;
+}
+.checker-main{
+    height: 59px;
+    width: 59px;
+    border-radius: 50%;
+    border: 3px solid rgb(171, 80, 95);
+    
+}
+.checker-main:active{
+    border: 3px solid transparent;
+    border-top: 3px dotted rgb(171, 80, 95);
+    border-right: 3px dotted rgb(171, 80, 95);
+    animation: spin 4s linear 0s  infinite normal;
+}
+.picture{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 55.5px;
+    width: 55.5px;
+    border-radius: 50%;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.image{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+.username{
+    font-size: 13px;
+}
+.aaaccc-main-about05{
+    margin-top: 28px;
+    height: 75%;
+}
+.upper{
+    display: flex;
+    height: 10%;
+    padding: 0 16px;
+    align-items: center;
+}
+.middle{
+    height: 66%;
+    width: 100%;
+}
+.pro{
+    height: 100%;
+    width: 20%;
+}
+.upperside{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+}
+.pro-middle
+{
+    width: 60%;
+    position: relative;
+    top: -2px;
+}
+.nameofuser{
+    color: #737373;
+    font-size: 15px;
+}
+.pro-last{
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+.button{
+    margin:0 0 0 2px ;
+}
+.middle-maker{
+    display: flex;
+    margin: 8px 0 4px 0;
+    align-items: center;
+    width: initial;
+    height: 18px;
+    padding: 4px 16px;
+ 
+}
+.middle-maker-first{
+    width: 80%;
+
+}
+.middle-maker-second{
+    width: 20%;
+   
+}
+.middle-maker-second-first{
+    padding-left: 7px;
+}
+.middle-maker-second-first-span{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.middle-maker-first-span{
+    color: #737373;
+    font-style: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.switch{
+    background-color: transparent;
+    color: #0095f6;
+    border: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+.middle-middle{
+    padding: 8px 0;
+}
+.middle-upper{
+    padding: 8px 16px;
+}
+.lower{
+    height: 100px;
+}
+.lower-class-low{
+    padding: 0 16px;
+    margin: 0 0 8px 0;
+    height: inherit;
+    width: initial;
+}
+.about-topic{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    width: initial;
+}
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 0 4px;
+    margin: 0;
+}
+li{
+    margin-bottom: 2px;
+    font-size: 12px;
+    padding-right:4px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.ul-manager{
+    height: 50px;
+    width: inherit;
+    margin-bottom: 4px;
+}
+.anger{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#c7c7c7;
+}
+.copyright{
+    padding: 0 4px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #c7c7c7;
+    text-transform: uppercase;
 }

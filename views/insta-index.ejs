@@ -28,8 +28,115 @@
                 </div>
             </div>
         </div>
-        <div class="center-main">
-            <div></div>
+        <div class="center">
+            <div class="center-main">
+                <div class="centerside">
+                    <div class="status">
+                        <% for(let index=0;index<data.length;index++) {%>
+                            <button class="helper">
+                                <div class="status-maker">
+                                    <div class="checker-main"></div>
+                                    <div class="picture">
+                                        <img class="image" src="<%= data[index].backgroundImg%>" alt="">
+                                    </div>
+                                </div>
+                                <div class="username"><%=data[index].user%></div>
+                            </button>
+                        <%}%>
+                    </div>
+                    <div class="posts"></div>
+                </div>
+                <div class="about">
+                    <div class="aaaccc-main-about05">
+                        <div class="upper">
+                            <div class="pro"><img class="upperside" src="<%= data[0].backgroundImg %>" alt=""></div>
+                            <div class="pro-middle"><%= data[0].user %>
+                                <div class="nameofuser">ibrahim</div>
+                            </div>
+                            <div class="pro-last">
+                                <div class="buttonholder">
+                                    <div class="button"><button class="switch">switch</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <div class="middle-maker">
+                                <div class="middle-maker-first"><span class="middle-maker-first-span">suggested for you</span></div>
+                                <div class="middle-maker-second"><div class="middle-maker-second-first"><span class="middle-maker-second-first-span">see all</span></div></div>
+                            </div>
+                            <div class="middle-middle">
+                                <div class="upper middle-upper">
+                                    <div class="pro"><img class="upperside" src="<%= data[1].backgroundImg %>" alt=""></div>
+                                    <div class="pro-middle"><%= data[1].user %>
+                                        <div class="nameofuser">suggested for you</div>
+                                    </div>
+                                    <div class="pro-last">
+                                        <div class="buttonholder">
+                                            <div class="button"><button class="switch follow">follow</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="upper middle-upper">
+                                    <div class="pro"><img class="upperside" src="<%= data[3].backgroundImg %>" alt=""></div>
+                                    <div class="pro-middle"><%= data[3].user %>
+                                        <div class="nameofuser">suggested for you</div>
+                                    </div>
+                                    <div class="pro-last">
+                                        <div class="buttonholder">
+                                            <div class="button"><button class="switch follow">follow</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="upper middle-upper">
+                                    <div class="pro"><img class="upperside" src="<%= data[2].backgroundImg %>" alt=""></div>
+                                    <div class="pro-middle"><%= data[2].user %>
+                                        <div class="nameofuser">suggested for you</div>
+                                    </div>
+                                    <div class="pro-last">
+                                        <div class="buttonholder">
+                                            <div class="button"><button class="switch follow">follow</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="upper middle-upper">
+                                    <div class="pro"><img class="upperside" src="<%= data[4].backgroundImg %>" alt=""></div>
+                                    <div class="pro-middle"><%= data[4].user %>
+                                        <div class="nameofuser">suggested for you</div>
+                                    </div>
+                                    <div class="pro-last">
+                                        <div class="buttonholder">
+                                            <div class="button"><button class="switch follow">follow</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lower">
+                            <div class="lower-class-low">
+                                <div class="about-topic">
+                                    <div class="ul-manager">
+                                        <ul class="ul">
+                                            <li><span><a class="anger" href="">about</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">help</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">press</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">api</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">jobs</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">privacy</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">terms</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">location</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">language</a></span>&nbsp;.</li>
+                                            <li><span><a class="anger" href="">meta verified</a></span>&nbsp;.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="copyright">
+                                        &copy; 2024 instagram from meta
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
