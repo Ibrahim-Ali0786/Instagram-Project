@@ -44,20 +44,36 @@
                             </button>
                         <%}%>
                     </div>
+                    <% for(let i=0;i<data.length;i++) { %>
                     <div class="posts">
                         <div class="tempermakhh54cuht">
                             <div class="tenkobUAydasbhdvashuvdu">
                                 <div class="tenkobUAydasbhdvashuvdu-first">
-                                    <div class="tenkobUAydasbhdvashuvdu-first-rotet"><img class="tenkobUAydasbhdvashuvdu-first-rotet-img" src="<%= data[0].backgroundImg %>" alt=""></div>
+                                    <div class="tenkobUAydasbhdvashuvdu-first-rotet"><img class="tenkobUAydasbhdvashuvdu-first-rotet-img" src="<%= data[i].backgroundImg %>" alt=""></div>
                                 </div>
-                                <div class="tenkobUAydasbhdvashuvdu-middle"><%= data[0].user %>
+                                <div class="tenkobUAydasbhdvashuvdu-middle"><%= data[i].user %>
                                     <div class="tenkobUAydasbhdvashuvdu-middle-user">ibrahim</div>
                                 </div>
                                 <div class="tenkobUAydasbhdvashuvdu-last"><div class="chnjiasudguig"><i class="fa-solid fa-ellipsis"></i></div></div>
                             </div>
-                            <div class="user-post"><% = data[0].user %></div>
+                            <div class="user-post">
+                                <div class="user-post-image-or-video"><img class="postsimagetoahftyaF" src="<%=data[i].posts[0].img  %>" alt="">
+                                </div>
+                                <div class="contentandshareandlike">
+                                    <div class="daufdyrsdc5454d5sdavtayg">
+                                        <span class="spanmakertfhjhu"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="spanmakertfhjhu"><i class="fa-regular fa-comment"></i></span>
+                                        <span class="spanmakertfhjhu"><i class="fa-solid fa-share"></i></span>
+                                    </div>
+                                    <div class="dvafdgfbbvfghvfjgfgyd6d455454dhgffy"><i class="fa-solid fa-bookmark"></i></div>
+                                </div>
+                                <div class="cjdasfduvasjdasjdvyuasvkd"><div class="profile-chahbHUyuuyyftyvhjdvgsaDJFY"><img class="djvasyfdasvdyacsydaydydy" src="<%= data[i].backgroundImg%>" alt=""></div><%= data[i].posts[0].like %> likes</div>
+                                <div class="contentsdgyuuduchecnhstduyfy66"><textarea class="djsagdhsgfyft" placeholder="Add a comment..." name="" cols="55" id=""></textarea></div>
+                                <div class="line"></div>
+                            </div>
                         </div>
                     </div>
+                    <% } %>
                 </div>
                 <div class="about">
                     <div class="aaaccc-main-about05">

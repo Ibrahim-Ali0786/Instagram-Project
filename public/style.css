@@ -9,8 +9,13 @@
     width: 16.2%;
 }
 .center{
+    overflow: scroll;
     height: 100vh;
     width: 83.8%;
+}
+.center::-webkit-scrollbar
+{
+    display: none;
 }
 .head{
     padding: 0.5px 24px;
@@ -73,7 +78,7 @@
 {
     display: flex;
     margin: 0 120px 0 120px;
-    height: inherit;
+    height: 100vh;
 }
 .status{
     display: flex;
@@ -81,7 +86,7 @@
     height: 90px;
     justify-content: space-between;
     padding: 8px 0;
-    margin: 0px 0px 10px 0;
+    margin: 0px 0px 0px 0px;
     overflow: scroll;
 }
 .status::-webkit-scrollbar{
@@ -92,16 +97,11 @@
     padding: 0 0 0 64px;
 }
 .posts{
-    display: flex;
-    flex-direction: column;
     width: initial;
-    height: 100vh;
-    border: 1px solid black;
+    height: 600px;
 }
 .centerside{
-    display: flex;
-    flex-direction: column;
-    height: inherit;
+    height: 100vh;
     width: 65%;
     margin:10px 0 10px 0;
 }
@@ -297,15 +297,15 @@ li{
 .tempermakhh54cuht{
     width: 80%;
     margin: 0 auto;
-    height: 100%;
-    border: 1px solid gold;
+    height: 100vh;
+
 }
 .tenkobUAydasbhdvashuvdu{
     display: flex;
     width: initial;
     height: 50px;
     padding: 10px 0;
-    border: 1px solid black;
+
 }
 .tenkobUAydasbhdvashuvdu-first{
     display: flex;
@@ -336,11 +336,78 @@ li{
 }
 .tenkobUAydasbhdvashuvdu-last{
     display: flex;
-    flex-direction: row-reverse;
     font-size: 18px;
     align-items: center;
     width: 10%;
 }
 .tenkobUAydasbhdvashuvdu-middle-user{
     font-weight: 400;
+}
+.postsimagetoahftyaF{
+   width: 100%;
+   height: inherit;
+   border-radius:3px;
+}
+.user-post{
+    width: initial;
+    display: flex;
+    flex-direction: column;
+}
+.chnjiasudguig{
+    padding-left: 30px;
+}
+.user-post-image-or-video
+{
+    width: initial;
+    height: 400px;
+}
+.contentandshareandlike{
+    display: flex;
+    width: initial;
+    font-size: 21px;
+    align-items: center;
+    height: 40px;
+}
+.cjdasfduvasjdasjdvyuasvkd{
+    display: flex;
+    width: inherit;
+    height: 20px;
+    font-size: 14px;
+    font-weight:620;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+.profile-chahbHUyuuyyftyvhjdvgsaDJFY{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.djvasyfdasvdyacsydaydydy{
+    height: 18px;
+    width: 18px;
+    border-radius:50%;
+}
+.daufdyrsdc5454d5sdavtayg
+{
+    width: 50%;
+}
+.dvafdgfbbvfghvfjgfgyd6d455454dhgffy{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.spanmakertfhjhu{
+    margin-right: 10px;
+}
+.djsagdhsgfyft{
+    border: transparent;
+    background-color: transparent;
+}
+.djsagdhsgfyft::-webkit-scrollbar{
+    display: none;
+}
+.line{
+    width: 100%;
+    border: 0.1px solid #c7c7c7;
 }

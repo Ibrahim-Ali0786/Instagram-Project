@@ -39,7 +39,7 @@ let data = [
         posts:[
             {
                 img:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                like:15000,
+                like:150,
                 Comment:90,
                 caption:"this is mine"
             }
@@ -54,7 +54,7 @@ let data = [
         posts:[
             {
                 img:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                like:15000,
+                like:12000,
                 Comment:90,
                 caption:"this is mine"
             }
@@ -69,7 +69,7 @@ let data = [
         posts:[
             {
                 img:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                like:15000,
+                like:1500,
                 Comment:90,
                 caption:"this is mine"
             }
@@ -78,13 +78,13 @@ let data = [
     {
         user:"mohammed",
         id:uuidv4(),
-        follower:15000,
+        follower:100,
         following:10,
         backgroundImg:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         posts:[
             {
                 img:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                like:15000,
+                like:900,
                 Comment:90,
                 caption:"this is mine"
             }
@@ -93,14 +93,14 @@ let data = [
     {
         user:"Radhika",
         id:uuidv4(),
-        follower:15000,
+        follower:1000,
         following:10,
         backgroundImg:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         posts:[
             {
                 img:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                like:15000,
-                Comment:90,
+                like:100,
+                Comment:10,
                 caption:"this is mine"
             }
         ]
@@ -108,13 +108,13 @@ let data = [
     {
         user:"simran_07",
         id:uuidv4(),
-        follower:15000,
+        follower:100,
         following:10,
         backgroundImg:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         posts:[
             {
                 img:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                like:15000,
+                like:1000,
                 Comment:90,
                 caption:"this is mine"
             }
@@ -123,13 +123,13 @@ let data = [
     {
         user:"dimple_qu..",
         id:uuidv4(),
-        follower:15000,
+        follower:5000,
         following:10,
         backgroundImg:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
         posts:[
             {
                 img:"https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-                like:15000,
+                like:150,
                 Comment:90,
                 caption:"this is mine"
             }
